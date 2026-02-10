@@ -1,4 +1,3 @@
-    <div align="center">
 <img width="1200" height="475" alt="GHBanner" src="https://play-lh.googleusercontent.com/vVdfQh-xMahRumZKEbHUhQaQx40FklZCqtAY_gSCHeWt2OfhiReeLr1igl0FaPZLvA=w240-h480-rw" />
 </div>
 
@@ -24,39 +23,42 @@ This contains everything you need to run your app locally.
 
 
 
-sudo apt update
+<sudo apt update>
 
 
 
 
-sudo apt install nodejs npm
+<sudo apt install nodejs npm>
 
 
 
 
-npm install -g tsx
+<npm install -g tsx>
 
 
 
 
-npm install --save-dev tsx
-
-
-
-
-
-git clone https://github.com/iriszedits-creator/IRIS-Ai-uncensored.git
+<npm install --save-dev tsx>
 
 
 
 
 
-cd IRIS-Ai-uncensored
+<git clone https://github.com/iriszedits-creator/IRIS-Ai-uncensored.git>
 
 
 
 
-tsx App.tsx <| OR |> npx tsx App.tsx
+
+<cd IRIS-Ai-uncensored>
+
+
+
+
+<tsx App.tsx> 
+
+    
+    <npx tsx App.tsx>
 
 
 
@@ -70,10 +72,10 @@ method2:
 
 
 
-npm install -g typescript
+<npm install -g typescript>
 
 
 
 
 
-tsc App.tsx
+<tsc App.tsx>
