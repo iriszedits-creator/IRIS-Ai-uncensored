@@ -51,6 +51,10 @@ git clone https://github.com/iriszedits-creator/IRIS-Ai-uncensored.git
 
 
 
+cd IRIS-Ai-uncensored
+
+
+
 
 tsx App.tsx <| OR |> npx tsx App.tsx
 
