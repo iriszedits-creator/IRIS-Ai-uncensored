@@ -40,6 +40,8 @@ npm install &&
 # =========================
 # METHOD 1: Run with tsx
 # =========================
+npm install -g tsx
+
 tsx App.tsx
 
 # =========================
