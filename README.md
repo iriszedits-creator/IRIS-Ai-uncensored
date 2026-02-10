@@ -46,7 +46,12 @@ sudo npm install -g tsx
 npm install -g tsx
 
 
-tsx App.tsx
+npm create vite@latest my-app -- --template react-ts
+cd my-app
+npm install
+
+
+npm run dev
 
 
 # =========================
