@@ -52,12 +52,35 @@ tsx App.tsx
 # =========================
 # npm run dev
 
-Run on Kali Linux
+## Run on Kali Linux
+
+```bash
+
+
+
 sudo apt update &&
+
+
+
 sudo apt install -y nodejs npm git &&
+
+
+
 npm install -g tsx typescript &&
+
+
+
 git clone https://github.com/iriszedits-creator/IRIS-Ai-uncensored.git &&
+
+
+
 cd IRIS-Ai-uncensored &&
+
+
+
 npm install &&
+
+
+
 npm run dev
 
