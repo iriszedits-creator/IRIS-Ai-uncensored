@@ -52,25 +52,16 @@ tsx App.tsx
 # =========================
 # npm run dev
 
-# Update system
-sudo apt update &&
 
-# Install Node.js, npm, and Git
-sudo apt install -y nodejs npm git &&
 
-# Install tsx and TypeScript globally
-npm install -g tsx typescript &&
+sudo apt update
 
-# Clone the repository
-git clone https://github.com/iriszedits-creator/IRIS-Ai-uncensored.git &&
 
-# Enter project directory
-cd IRIS-Ai-uncensored &&
 
-# Install dependencies
-npm install &&
+sudo apt install -y nodejs npm git
 
-# Run the app (BEST)
-npm run dev
+
+
+
 
 
