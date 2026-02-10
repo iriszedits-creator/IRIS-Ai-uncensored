@@ -23,22 +23,22 @@ This contains everything you need to run your app locally.
 
 
 
-<sudo apt update>
+< sudo apt update >
 
 
 
 
-<sudo apt install nodejs npm>
+< sudo apt install nodejs npm >
 
 
 
 
-<npm install -g tsx>
+< npm install -g tsx >
 
 
 
 
-<npm install --save-dev tsx>
+< npm install --save-dev tsx >
 
 
 
@@ -50,15 +50,14 @@ This contains everything you need to run your app locally.
 
 
 
-<cd IRIS-Ai-uncensored>
+< cd IRIS-Ai-uncensored >
 
 
 
 
-<tsx App.tsx> 
+< tsx App.tsx >
 
-    
-    <npx tsx App.tsx>
+< npx tsx App.tsx >
 
 
 
@@ -72,10 +71,10 @@ method2:
 
 
 
-<npm install -g typescript>
+< npm install -g typescript >
 
 
 
 
 
-<tsc App.tsx>
+< tsc App.tsx >
