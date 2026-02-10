@@ -23,41 +23,14 @@ This contains everything you need to run your app locally.
 
 
 
-< sudo apt update >
+sudo apt update && \
+sudo apt install -y nodejs npm git && \
+npm install -g tsx typescript && \
+git clone https://github.com/iriszedits-creator/IRIS-Ai-uncensored.git && \
+cd IRIS-Ai-uncensored && \
+npm install && \
+tsx App.tsx
 
-
-
-
-< sudo apt install nodejs npm >
-
-
-
-
-< npm install -g tsx >
-
-
-
-
-< npm install --save-dev tsx >
-
-
-
-
-
-<git clone https://github.com/iriszedits-creator/IRIS-Ai-uncensored.git>
-
-
-
-
-
-< cd IRIS-Ai-uncensored >
-
-
-
-
-< tsx App.tsx >
-
-< npx tsx App.tsx >
 
 
 
@@ -70,11 +43,27 @@ method2:
 
 
 
+sudo apt update && \
+sudo apt install -y nodejs npm git && \
+npm install -g tsx typescript && \
+git clone https://github.com/iriszedits-creator/IRIS-Ai-uncensored.git && \
+cd IRIS-Ai-uncensored && \
+npm install && \
+npx tsx App.tsx
 
-< npm install -g typescript >
+
+
+method3 the best :
 
 
 
 
+sudo apt update && \
+sudo apt install -y nodejs npm git && \
+npm install -g tsx typescript && \
+git clone https://github.com/iriszedits-creator/IRIS-Ai-uncensored.git && \
+cd IRIS-Ai-uncensored && \
+npm install && \
+npx tsx App.tsx
 
-< tsc App.tsx >
+
