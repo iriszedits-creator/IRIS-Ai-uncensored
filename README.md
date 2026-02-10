@@ -16,3 +16,42 @@ This contains everything you need to run your app locally.
 2. Set the `iris key` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+  
+   
+   run it in kali lunix :
+
+
+sudo apt update
+
+
+sudo apt install nodejs npm
+
+
+npm install -g tsx
+
+
+npm install --save-dev tsx
+
+
+
+git clone https://github.com/iriszedits-creator/IRIS-Ai-uncensored.git
+
+
+
+tsx App.tsx <| OR |> npx tsx App.tsx
+
+
+
+
+
+
+
+
+method2:
+
+
+npm install -g typescript
+
+
+tsc App.tsx
