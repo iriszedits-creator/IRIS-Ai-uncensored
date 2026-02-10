@@ -40,9 +40,14 @@ npm install &&
 # =========================
 # METHOD 1: Run with tsx
 # =========================
+sudo npm install -g tsx
+
+
 npm install -g tsx
 
+
 tsx App.tsx
+
 
 # =========================
 # METHOD 2: Run with npx tsx
