@@ -19,51 +19,37 @@ This contains everything you need to run your app locally.
   
    
    run it in kali lunix :
+# Update system
+sudo apt update &&
 
+# Install Node.js, npm, and Git
+sudo apt install -y nodejs npm git &&
 
+# Install tsx and TypeScript globally
+npm install -g tsx typescript &&
 
+# Clone the repository
+git clone https://github.com/iriszedits-creator/IRIS-Ai-uncensored.git &&
 
-sudo apt update && \
-sudo apt install -y nodejs npm git && \
-npm install -g tsx typescript && \
-git clone https://github.com/iriszedits-creator/IRIS-Ai-uncensored.git && \
-cd IRIS-Ai-uncensored && \
-npm install && \
+# Enter project folder
+cd IRIS-Ai-uncensored &&
+
+# Install dependencies
+npm install &&
+
+# =========================
+# METHOD 1: Run with tsx
+# =========================
 tsx App.tsx
 
+# =========================
+# METHOD 2: Run with npx tsx
+# =========================
+# npx tsx App.tsx
 
-
-
-
-
-
-
-method2:
-
-
-
-
-sudo apt update && \
-sudo apt install -y nodejs npm git && \
-npm install -g tsx typescript && \
-git clone https://github.com/iriszedits-creator/IRIS-Ai-uncensored.git && \
-cd IRIS-Ai-uncensored && \
-npm install && \
-npx tsx App.tsx
-
-
-
-method3 the best :
-
-
-
-
-sudo apt update && \
-sudo apt install -y nodejs npm git && \
-npm install -g tsx typescript && \
-git clone https://github.com/iriszedits-creator/IRIS-Ai-uncensored.git && \
-cd IRIS-Ai-uncensored && \
-npm install && \
-npx tsx App.tsx
+# =========================
+# METHOD 3 (BEST): Run with npm
+# =========================
+# npm run dev
 
 
